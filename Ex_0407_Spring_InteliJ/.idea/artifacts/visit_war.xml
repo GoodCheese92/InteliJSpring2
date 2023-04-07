@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="visit:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>visit</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="visit-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="visit:war exploded" />
+    </root>
+  </artifact>
+</component>
